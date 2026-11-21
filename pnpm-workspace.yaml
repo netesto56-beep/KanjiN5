@@ -1,0 +1,6 @@
+# pnpm 11 читает настройки только отсюда (не из .npmrc и не из package.json).
+nodeLinker: hoisted
+
+# esbuild нужен Vite для сборки; pnpm 11 по умолчанию блокирует postinstall-скрипты.
+allowBuilds:
+  esbuild: true

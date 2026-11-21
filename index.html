@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kanji N5</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 class="app-title">Kanji N5</h1>
+      <div class="auth-bar" id="authBar" hidden>
+        <span class="auth-email" id="authEmail"></span>
+        <button type="button" class="btn-ghost" id="btnSignOut">Выйти</button>
+      </div>
+    </header>
+
+    <div class="sync-status" id="syncStatus" role="status" aria-live="polite"></div>
+
+    <div class="summary" id="summary">
+      Не знаю: 0 | Трудно: 0 | Легко: 0 | Знаю: 0
+    </div>
+
+    <div class="filter" id="filter">
+      <button class="filter-btn active" data-filter="all">Все</button>
+      <button class="filter-btn" data-filter="unknown">Не знаю</button>
+      <button class="filter-btn" data-filter="hard">Трудно</button>
+      <button class="filter-btn" data-filter="easy">Легко</button>
+      <button class="filter-btn" data-filter="known">Знаю</button>
+    </div>
+
+    <div class="card-container" id="cardContainer">
+      <div class="card" id="card">
+        <div class="card-inner" id="cardInner">
+          <!-- Лицевая сторона -->
+          <div class="card-front">
+            <div class="kanji-large" id="frontKanji">日</div>
+            <div class="kanji-hint" id="frontHint">毎日</div>
+          </div>
+          <!-- Обратная сторона -->
+          <div class="card-back">
+            <div class="kanji-meaning" id="backMeaning">солнце, день</div>
+            <div class="kanji-readings" id="backReadings">
+              <span class="reading-item"><strong>Кун:</strong> ひ、か</span>
+              <span class="reading-item"><strong>Он:</strong> ニチ、ジツ</span>
+            </div>
+            <div class="examples" id="backExamples">
+              <div class="example-row">
+                <span class="example-word">毎日</span>
+                <span class="example-reading">まいにち</span>
+                <span class="example-meaning">каждый день</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="actions" id="actions">
+      <button class="btn-main" id="btnShow">Показать ответ</button>
+      <div class="rating-buttons" id="ratingButtons" style="display: none;">
+        <button class="rating-btn" data-rating="unknown">Не знаю</button>
+        <button class="rating-btn" data-rating="hard">Трудно</button>
+        <button class="rating-btn" data-rating="easy">Легко</button>
+        <button class="rating-btn" data-rating="known">Знаю</button>
+      </div>
+      <button class="btn-main" id="btnNext" style="display: none;">Следующий кандзи</button>
+    </div>
+  </div>
+
+  <!-- Экран входа: показывается, пока нет сессии Supabase -->
+  <div class="modal-backdrop" id="authModal" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="authTitle">
+      <h2 class="modal-title" id="authTitle">Вход</h2>
+      <p class="modal-subtitle">Прогресс сохраняется в облаке Supabase и доступен с любого устройства.</p>
+
+      <form id="authForm" novalidate>
+        <label class="field">
+          <span class="field-label">Email</span>
+          <input class="field-input" id="authEmailInput" type="email" name="email"
+                 autocomplete="email" inputmode="email" required>
+        </label>
+
+        <label class="field">
+          <span class="field-label">Пароль</span>
+          <input class="field-input" id="authPasswordInput" type="password" name="password"
+                 autocomplete="current-password" minlength="6" required>
+        </label>
+
+        <p class="form-message" id="authMessage" hidden></p>
+
+        <button class="btn-main" id="btnAuthSubmit" type="submit">Войти</button>
+      </form>
+
+      <button class="link-btn" id="btnToggleMode" type="button">Нет аккаунта? Зарегистрироваться</button>
+    </div>
+  </div>
+
+  <!-- Критическая ошибка конфигурации (например, нет .env) -->
+  <div class="fatal" id="fatalError" hidden>
+    <div class="modal">
+      <h2 class="modal-title">Не удалось запустить приложение</h2>
+      <p class="form-message" id="fatalMessage"></p>
+    </div>
+  </div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

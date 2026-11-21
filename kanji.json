@@ -1,0 +1,440 @@
+[
+  {
+    "kanji": "学",
+    "meaning": "учёба, обучение",
+    "onyomi": ["ガク"],
+    "kunyomi": ["まなぶ"],
+    "examples": [
+      {
+        "word": "学生",
+        "reading": "がくせい",
+        "meaning": "студент"
+      }
+    ]
+  },
+  {
+    "kanji": "日",
+    "meaning": "солнце, день",
+    "onyomi": ["ニチ", "ジツ"],
+    "kunyomi": ["ひ", "か"],
+    "examples": [
+      {
+        "word": "毎日",
+        "reading": "まいにち",
+        "meaning": "каждый день"
+      },
+      {
+        "word": "日曜日",
+        "reading": "にちようび",
+        "meaning": "воскресенье"
+      },
+      {
+        "word": "日本",
+        "reading": "にほん",
+        "meaning": "Япония"
+      }
+    ]
+  },
+  {
+    "kanji": "月",
+    "meaning": "луна, месяц",
+    "onyomi": ["ゲツ", "ガツ"],
+    "kunyomi": ["つき"],
+    "examples": [
+      {
+        "word": "月曜日",
+        "reading": "げつようび",
+        "meaning": "понедельник"
+      },
+      {
+        "word": "月刊",
+        "reading": "げっかん",
+        "meaning": "ежемесячное издание"
+      }
+    ]
+  },
+  {
+    "kanji": "火",
+    "meaning": "огонь",
+    "onyomi": ["カ"],
+    "kunyomi": ["ひ"],
+    "examples": [
+      {
+        "word": "火曜日",
+        "reading": "かようび",
+        "meaning": "вторник"
+      },
+      {
+        "word": "火山",
+        "reading": "かざん",
+        "meaning": "вулкан"
+      }
+    ]
+  },
+  {
+    "kanji": "水",
+    "meaning": "вода",
+    "onyomi": ["スイ"],
+    "kunyomi": ["みず"],
+    "examples": [
+      {
+        "word": "水曜日",
+        "reading": "すいようび",
+        "meaning": "среда"
+      },
+      {
+        "word": "水道",
+        "reading": "すいどう",
+        "meaning": "водопровод"
+      }
+    ]
+  },
+  {
+    "kanji": "木",
+    "meaning": "дерево",
+    "onyomi": ["モク", "ボク"],
+    "kunyomi": ["き", "こ"],
+    "examples": [
+      {
+        "word": "木曜日",
+        "reading": "もくようび",
+        "meaning": "четверг"
+      },
+      {
+        "word": "木材",
+        "reading": "もくざい",
+        "meaning": "древесина"
+      }
+    ]
+  },
+  {
+    "kanji": "金",
+    "meaning": "золото, металл, деньги",
+    "onyomi": ["キン", "コン"],
+    "kunyomi": ["かね", "かな"],
+    "examples": [
+      { "word": "お金", "reading": "おかね", "meaning": "деньги" },
+      { "word": "金曜日", "reading": "きんようび", "meaning": "пятница" },
+      { "word": "金属", "reading": "きんぞく", "meaning": "металл" }
+    ]
+  },
+  {
+    "kanji": "人",
+    "meaning": "человек",
+    "onyomi": ["ジン", "ニン"],
+    "kunyomi": ["ひと"],
+    "examples": [
+      { "word": "日本人", "reading": "にほんじん", "meaning": "японец" },
+      { "word": "人", "reading": "ひと", "meaning": "человек" },
+      { "word": "人口", "reading": "じんこう", "meaning": "население" }
+    ]
+  },
+  {
+    "kanji": "山",
+    "meaning": "гора",
+    "onyomi": ["サン"],
+    "kunyomi": ["やま"],
+    "examples": [
+      { "word": "富士山", "reading": "ふじさん", "meaning": "Фудзи" },
+      { "word": "山", "reading": "やま", "meaning": "гора" },
+      { "word": "山道", "reading": "やまみち", "meaning": "горная тропа" }
+    ]
+  },
+  {
+    "kanji": "川",
+    "meaning": "река",
+    "onyomi": ["セン"],
+    "kunyomi": ["かわ"],
+    "examples": [
+      { "word": "小川", "reading": "おがわ", "meaning": "ручей" },
+      { "word": "川岸", "reading": "かわぎし", "meaning": "берег реки" },
+      { "word": "川", "reading": "かわ", "meaning": "река" }
+    ]
+  },
+  {
+    "kanji": "土",
+    "meaning": "земля, почва",
+    "onyomi": ["ド", "ト"],
+    "kunyomi": ["つち"],
+    "examples": [
+      { "word": "土曜日", "reading": "どようび", "meaning": "суббота" },
+      { "word": "土", "reading": "つち", "meaning": "земля" },
+      { "word": "土地", "reading": "とち", "meaning": "земля, участок" }
+    ]
+  },
+  {
+    "kanji": "年",
+    "meaning": "год",
+    "onyomi": ["ネン"],
+    "kunyomi": ["とし"],
+    "examples": [
+      { "word": "今年", "reading": "ことし", "meaning": "этот год" },
+      { "word": "去年", "reading": "きょねん", "meaning": "прошлый год" },
+      { "word": "年", "reading": "とし", "meaning": "год" }
+    ]
+  },
+  {
+    "kanji": "時",
+    "meaning": "время, час",
+    "onyomi": ["ジ"],
+    "kunyomi": ["とき"],
+    "examples": [
+      { "word": "時間", "reading": "じかん", "meaning": "время" },
+      { "word": "時々", "reading": "ときどき", "meaning": "иногда" },
+      { "word": "時", "reading": "とき", "meaning": "время" }
+    ]
+  },
+  {
+    "kanji": "行",
+    "meaning": "идти, ехать, проводить",
+    "onyomi": ["コウ", "ギョウ"],
+    "kunyomi": ["い", "ゆ", "おこな"],
+    "examples": [
+      { "word": "行く", "reading": "いく", "meaning": "идти" },
+      { "word": "銀行", "reading": "ぎんこう", "meaning": "банк" },
+      { "word": "旅行", "reading": "りょこう", "meaning": "путешествие" }
+    ]
+  },
+  {
+    "kanji": "見",
+    "meaning": "видеть, смотреть",
+    "onyomi": ["ケン"],
+    "kunyomi": ["み"],
+    "examples": [
+      { "word": "見る", "reading": "みる", "meaning": "смотреть" },
+      { "word": "見学", "reading": "けんがく", "meaning": "экскурсия" },
+      { "word": "花見", "reading": "はなみ", "meaning": "любование цветами" }
+    ]
+  },
+  {
+    "kanji": "食",
+    "meaning": "есть, пища",
+    "onyomi": ["ショク"],
+    "kunyomi": ["た", "く", "は"],
+    "examples": [
+      { "word": "食べる", "reading": "たべる", "meaning": "есть" },
+      { "word": "食堂", "reading": "しょくどう", "meaning": "столовая" },
+      { "word": "食事", "reading": "しょくじ", "meaning": "приём пищи" }
+    ]
+  },
+    {
+      "kanji": "大",
+      "meaning": "большой, крупный",
+      "onyomi": ["ダイ", "タイ"],
+      "kunyomi": ["おお"],
+      "examples": [
+        { "word": "大きい", "reading": "おおきい", "meaning": "большой" },
+        { "word": "大学", "reading": "だいがく", "meaning": "университет" },
+        { "word": "大人", "reading": "おとな", "meaning": "взрослый" }
+      ]
+    },
+    {
+      "kanji": "小",
+      "meaning": "маленький, мелкий",
+      "onyomi": ["ショウ"],
+      "kunyomi": ["ちい", "こ", "お"],
+      "examples": [
+        { "word": "小さい", "reading": "ちいさい", "meaning": "маленький" },
+        { "word": "小学校", "reading": "しょうがっこう", "meaning": "начальная школа" },
+        { "word": "小鳥", "reading": "ことり", "meaning": "птичка" }
+      ]
+    },
+    {
+      "kanji": "中",
+      "meaning": "середина, внутри, средний",
+      "onyomi": ["チュウ"],
+      "kunyomi": ["なか"],
+      "examples": [
+        { "word": "中学校", "reading": "ちゅうがっこう", "meaning": "средняя школа" },
+        { "word": "中", "reading": "なか", "meaning": "внутри" },
+        { "word": "途中", "reading": "とちゅう", "meaning": "по пути" }
+      ]
+    },
+    {
+      "kanji": "上",
+      "meaning": "верх, верхний, подниматься",
+      "onyomi": ["ジョウ"],
+      "kunyomi": ["うえ", "あ", "のぼ"],
+      "examples": [
+        { "word": "上手", "reading": "じょうず", "meaning": "умелый" },
+        { "word": "上", "reading": "うえ", "meaning": "верх" },
+        { "word": "上着", "reading": "うわぎ", "meaning": "куртка" }
+      ]
+    },
+    {
+      "kanji": "下",
+      "meaning": "низ, нижний, спускаться",
+      "onyomi": ["カ", "ゲ"],
+      "kunyomi": ["した", "さ", "くだ", "お"],
+      "examples": [
+        { "word": "地下鉄", "reading": "ちかてつ", "meaning": "метро" },
+        { "word": "下", "reading": "した", "meaning": "низ" },
+        { "word": "下手", "reading": "へた", "meaning": "неумелый" }
+      ]
+    },
+    {
+      "kanji": "出",
+      "meaning": "выходить, вынимать",
+      "onyomi": ["シュツ"],
+      "kunyomi": ["で", "だ"],
+      "examples": [
+        { "word": "出口", "reading": "でぐち", "meaning": "выход" },
+        { "word": "出る", "reading": "でる", "meaning": "выходить" },
+        { "word": "出席", "reading": "しゅっせき", "meaning": "посещаемость" }
+      ]
+    },
+    {
+      "kanji": "入",
+      "meaning": "входить, впускать",
+      "onyomi": ["ニュウ"],
+      "kunyomi": ["はい", "い"],
+      "examples": [
+        { "word": "入口", "reading": "いりぐち", "meaning": "вход" },
+        { "word": "入る", "reading": "はいる", "meaning": "входить" },
+        { "word": "入学", "reading": "にゅうがく", "meaning": "поступление в школу" }
+      ]
+    },
+    {
+      "kanji": "本",
+      "meaning": "книга, основа, настоящий",
+      "onyomi": ["ホン"],
+      "kunyomi": ["もと"],
+      "examples": [
+        { "word": "日本", "reading": "にほん", "meaning": "Япония" },
+        { "word": "本当", "reading": "ほんとう", "meaning": "правда" },
+        { "word": "本", "reading": "ほん", "meaning": "книга" }
+      ]
+    },
+    {
+      "kanji": "語",
+      "meaning": "язык, слово, рассказывать",
+      "onyomi": ["ゴ"],
+      "kunyomi": ["かた"],
+      "examples": [
+        { "word": "日本語", "reading": "にほんご", "meaning": "японский язык" },
+        { "word": "英語", "reading": "えいご", "meaning": "английский язык" },
+        { "word": "物語", "reading": "ものがたり", "meaning": "повесть, история" }
+      ]
+    },
+    {
+      "kanji": "国",
+      "meaning": "страна, государство",
+      "onyomi": ["コク"],
+      "kunyomi": ["くに"],
+      "examples": [
+        { "word": "外国", "reading": "がいこく", "meaning": "зарубежье, заграница" },
+        { "word": "国", "reading": "くに", "meaning": "страна" },
+        { "word": "中国", "reading": "ちゅうごく", "meaning": "Китай" }
+      ]
+    },
+    {
+      "kanji": "右",
+      "meaning": "правый, справа",
+      "onyomi": ["ウ", "ユウ"],
+      "kunyomi": ["みぎ"],
+      "examples": [
+        { "word": "右手", "reading": "みぎて", "meaning": "правая рука" },
+        { "word": "右側", "reading": "みぎがわ", "meaning": "правая сторона" },
+        { "word": "右", "reading": "みぎ", "meaning": "правая сторона" }
+      ]
+    },
+    {
+      "kanji": "左",
+      "meaning": "левый, слева",
+      "onyomi": ["サ"],
+      "kunyomi": ["ひだり"],
+      "examples": [
+        { "word": "左手", "reading": "ひだりて", "meaning": "левая рука" },
+        { "word": "左側", "reading": "ひだりがわ", "meaning": "левая сторона" },
+        { "word": "左", "reading": "ひだり", "meaning": "левая сторона" }
+      ]
+    },
+    {
+      "kanji": "前",
+      "meaning": "перед, до, раньше",
+      "onyomi": ["ゼン"],
+      "kunyomi": ["まえ"],
+      "examples": [
+        { "word": "名前", "reading": "なまえ", "meaning": "имя" },
+        { "word": "前", "reading": "まえ", "meaning": "перед" },
+        { "word": "午前", "reading": "ごぜん", "meaning": "до полудня" }
+      ]
+    },
+    {
+      "kanji": "後",
+      "meaning": "после, сзади, позже",
+      "onyomi": ["ゴ", "コウ"],
+      "kunyomi": ["あと", "うし", "のち"],
+      "examples": [
+        { "word": "後ろ", "reading": "うしろ", "meaning": "сзади" },
+        { "word": "午後", "reading": "ごご", "meaning": "после полудня" },
+        { "word": "後で", "reading": "あとで", "meaning": "позже" }
+      ]
+    },
+    {
+      "kanji": "外",
+      "meaning": "снаружи, внешний, кроме",
+      "onyomi": ["ガイ", "ゲ"],
+      "kunyomi": ["そと", "ほか", "はず"],
+      "examples": [
+        { "word": "外国", "reading": "がいこく", "meaning": "заграница" },
+        { "word": "外", "reading": "そと", "meaning": "снаружи" },
+        { "word": "海外", "reading": "かいがい", "meaning": "за рубежом" }
+      ]
+    },
+    {
+      "kanji": "間",
+      "meaning": "промежуток, между, пространство",
+      "onyomi": ["カン", "ケン"],
+      "kunyomi": ["あいだ", "ま"],
+      "examples": [
+        { "word": "期間", "reading": "きかん", "meaning": "период" },
+        { "word": "間", "reading": "あいだ", "meaning": "между" },
+        { "word": "人間", "reading": "にんげん", "meaning": "человек" }
+      ]
+    },
+    {
+      "kanji": "家",
+      "meaning": "дом, семья, специалист",
+      "onyomi": ["カ", "ケ"],
+      "kunyomi": ["いえ", "や", "うち"],
+      "examples": [
+        { "word": "家族", "reading": "かぞく", "meaning": "семья" },
+        { "word": "家", "reading": "いえ", "meaning": "дом" },
+        { "word": "作家", "reading": "さっか", "meaning": "писатель" }
+      ]
+    },
+    {
+      "kanji": "女",
+      "meaning": "женщина, женский",
+      "onyomi": ["ジョ", "ニョ"],
+      "kunyomi": ["おんな", "め"],
+      "examples": [
+        { "word": "女性", "reading": "じょせい", "meaning": "женщина" },
+        { "word": "彼女", "reading": "かのじょ", "meaning": "она, девушка" },
+        { "word": "女", "reading": "おんな", "meaning": "женщина" }
+      ]
+    },
+    {
+      "kanji": "男",
+      "meaning": "мужчина, мужской",
+      "onyomi": ["ダン", "ナン"],
+      "kunyomi": ["おとこ"],
+      "examples": [
+        { "word": "男性", "reading": "だんせい", "meaning": "мужчина" },
+        { "word": "男の子", "reading": "おとこのこ", "meaning": "мальчик" },
+        { "word": "男", "reading": "おとこ", "meaning": "мужчина" }
+      ]
+    },
+    {
+      "kanji": "子",
+      "meaning": "ребёнок, дитя",
+      "onyomi": ["シ", "ス"],
+      "kunyomi": ["こ"],
+      "examples": [
+        { "word": "子供", "reading": "こども", "meaning": "ребёнок" },
+        { "word": "女の子", "reading": "おんなのこ", "meaning": "девочка" },
+        { "word": "電子", "reading": "でんし", "meaning": "электрон, электронный" }
+      ]
+    }
+  ]
